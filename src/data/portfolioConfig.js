@@ -11,7 +11,7 @@ export const PORTFOLIO_DATA = {
     graduation: "2027",
     cgpa: "8.02",
     photoUrl:"/profile.jpg",
-    resumePdfUrl: "/resume.pdf", 
+    resumePdfUrl: "/main_resume.pdf", 
     socials: {
       github:"https://github.com/ShivamVerma272",
       linkedin: "https://www.linkedin.com/in/shivam-verma-802b22295/",
@@ -58,6 +58,24 @@ export const PORTFOLIO_DATA = {
       liveDemo:"https://spend-wise-ai-pro.vercel.app/"
     },
     {
+  id: "slap-slack-clone",
+  title: "SLAP (Slack Clone)",
+  slug: "slap-slack-clone",
+  description: "Real-time Workplace Communication Platform featuring custom channel creation, direct messaging, live chat, and multi-tenant authentication.",
+  category: ["Web", "Real-Time", "Database"],
+  featured: true,
+  technologies: ["React", "Node.js", "Express", "MongoDB", "Stream Chat", "Clerk", "Tailwind CSS", "Vercel", "Render"],
+  features: [
+    "Real-time instant messaging with sub-second latency",
+    "Custom workspace channel creation and management",
+    "Direct 1-on-1 messaging & user presence tracking",
+    "Multi-tenant OAuth authentication & role management",
+    "Rich text formatting, unread badges, and message reactions"
+  ],
+  github: "https://github.com/ShivamVerma272/slap-slack-clone",
+  liveDemo: "https://slap-slack-clone-three.vercel.app"
+},
+    {
       id: "medicare-ai",
       title: "MediCare",
       slug: "medicare-ai",
@@ -76,21 +94,24 @@ export const PORTFOLIO_DATA = {
       liveDemo: "https://medicare-a8n6.vercel.app/"
     },
     {
-      id: "ai-chatbot",
-      title: "AI Chatbot For Mental Health Support",
-      slug: "ai-chatbot",
-      description: "AI-powered mental health support chatbot designed for real-time emotional support and conversational assistance.",
-      category: ["AI"],
-      featured: true,
-      technologies: ["React.js", "Node.js"],
-      features: [
-        "Real-time emotional support",
-        "Conversational assistance",
-        "Interactive AI response interface"
-      ],
-      github: "https://github.com/ShivamVerma272/AI-Chatbot-for-Mental-Health-Support",
-      liveDemo:"https://ai-chatbot-for-mental-health-suppor-liard.vercel.app/"
-    }
+  id: "ai-chatbot",
+  title: "AI Chatbot For Mental Health Support",
+  slug: "ai-chatbot",
+  description: "AI-powered mental health support chatbot designed for real-time emotional support, secure session history management, and conversational assistance.",
+  category: ["AI", "Web", "Database"],
+  featured: true,
+  technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "OpenAI API", "Vercel"],
+  features: [
+    "Real-time emotional support and empathetic AI conversational assistance",
+    "Secure session and chat history persistence using MongoDB",
+    "RESTful API integration for smooth client-server data streaming",
+    "Interactive, low-latency AI response interface",
+    "Custom prompt engineering with safety content guardrails"
+  ],
+  github: "https://github.com/ShivamVerma272/AI-Chatbot-for-Mental-Health-Support",
+  liveDemo: "https://ai-chatbot-for-mental-health-suppor-liard.vercel.app/"
+}
+   
   ],
   achievements: [
     { title: "150+", label: "LeetCode Problems Solved" },
